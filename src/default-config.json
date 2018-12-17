@@ -1,0 +1,14 @@
+{
+  "updateComment": false,
+  "before": "✨ The results are in! ✨",
+  "after": "Love from [Perf Reporter](https://github.com/apps/perf-reporter) ❤️",
+  "wpt": {
+    "server": "www.webpagetest.org",
+    "location": "Dulles:Chrome",
+    "connectivity": "Cable",
+    "label": "Perf Reporter Test",
+    "average": "median",
+    "view": "firstView",
+    "private": true
+  }
+}

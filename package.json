@@ -1,0 +1,34 @@
+{
+  "name": "perf-reporter",
+  "version": "1.0.0",
+  "description": "A GitHub bot to add Web page performance results to a PR",
+  "author": "matthojo <matthojo@gmail.com>",
+  "license": "MIT",
+  "repository": "perf-reporter",
+  "scripts": {
+    "dev": "nodemon --exec \"npm start\"",
+    "start": "probot run ./src/index.js",
+    "test": "jest && standard"
+  },
+  "dependencies": {
+    "probot": "^7.0.0",
+    "webpagetest": "^0.3.9",
+    "handlebars": "^4.0.12",
+    "async": "^2.6.1",
+    "probot-commands": "^1.1.0"
+  },
+  "devDependencies": {
+    "jest": "^23.2.0",
+    "smee-client": "^1.0.1",
+    "standard": "^11.0.1"
+  },
+  "engines": {
+    "node": "8.9",
+    "npm": "5.6"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
